@@ -58,4 +58,41 @@ git diff
 ```
 git checkout "host"
 ```
-## 
+## Comando para moverse entre versiones
+
+```
+git reset --hard "host"
+```
+## Comando para ver el historial completo
+```
+git reflog
+```
+## Comando para mover la head junto al main
+```
+git checkout main
+```
+## Comando para agregar atajos
+
+```
+git config --global alias.name "action"
+```
+## Comando para defenir las versiones del archivo
+```
+git tag "name version"
+```
+## Comando para agregar todos los archivos al repositorio 
+```
+git add .
+```
+## Comando para cambiar de ramas
+```
+git branch "name branch"
+```
+## Comando para cambiar entre ramas
+```
+git switch "name branch"
+```
+## Comando para pegar los cambios de una rama a otra
+```
+git merge "name branch"
+```
