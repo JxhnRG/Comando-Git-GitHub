@@ -96,3 +96,48 @@ git switch "name branch"
 ```
 git merge "name branch"
 ```
+## Comando para generar un commit temporal que solo vemos nosotros
+```
+git stash
+```
+## Comando para ver la lista de stash
+```
+git stash list
+```
+## Comando para volver al lugar donde hiciste el stash
+```
+git stash pop
+```
+#### Aqui finaliza los comando de git
+___
+# GitHub
+## Comando para crear las claves ssh
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+
+
+
+# Comandos para enlazar con git hub
+
+## Comando para conectar con el repositorio
+```
+git remote add origin https://github.com/username/namerepository.git
+```
+## Comando para subir los archivos por primera vez al git hub
+```
+git push -u origin main
+```
+## Comando para subir los cambios 
+```
+git push
+```
+## Comando para bajar el historial pero no los archivos
+```
+git fetch
+```
+## Comando para bajar los cambios y los archivos
+```
+git pull origin main
+```
