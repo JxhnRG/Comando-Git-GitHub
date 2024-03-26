@@ -141,3 +141,6 @@ git fetch
 ```
 git pull origin main
 ```
+## Clonar repositorio por ssh
+```
+git clone direccion_ssh.git
