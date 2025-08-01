@@ -108,17 +108,6 @@ git stash list
 ```
 git stash pop
 ```
-#### Aqui finaliza los comando de git
-___
-# GitHub
-## Comando para crear las claves ssh
-```
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-
-
-
 # Comandos para enlazar con git hub
 
 ## Comando para conectar con el repositorio
